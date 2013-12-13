@@ -13,6 +13,8 @@ extern "C" {
 #include <time.h>
 #include <list>
 
+typedef AV* myav_ref;
+
 inline double tv_diff(timespec & t1, timespec & t2) {
     return (double)(t2.tv_sec - t1.tv_sec) + (double)(t2.tv_nsec - t1.tv_nsec) / 1000000000;
 }
@@ -92,6 +94,7 @@ private:
                 do {
                     av_push(cav, av_shift(tav));
                 } while (av_len(tav) >= 0);
+                sv_2mortal((SV*)tav);
                 prev_finish = (*it)->_finish;
                 ++cnt;
             }
@@ -129,7 +132,7 @@ TimeLog::start(char * text)
 void
 TimeLog::finish()
 
-AV*
+myav_ref
 TimeLog::analyze()
 
 void

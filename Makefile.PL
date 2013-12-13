@@ -11,7 +11,7 @@ WriteMakefile(
     CC           => 'g++',
     LD           => '$(CC)',
     INC          => '-I.',
-    CCFLAGS      => '-d3 -O0',
+    CCFLAGS      => '',
     XSOPT        => '-C++',
     TYPEMAPS     => ['perlobject.map'],
 );
