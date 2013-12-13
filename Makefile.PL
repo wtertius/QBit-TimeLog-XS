@@ -6,7 +6,7 @@ WriteMakefile(
     NAME         => 'QBit::TimeLog::XS',
     VERSION_FROM => 'lib/QBit/TimeLog/XS.pm',
     PREREQ_PM    => {'QBit::TimeLog' => 0},
-    LIBS         => [''],
+    LIBS         => ['-lrt'],
     DEFINE       => '',
     CC           => 'g++',
     LD           => '$(CC)',
