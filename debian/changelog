@@ -1,0 +1,8 @@
+libqbit-timelog-xs-perl (0.001) saucy; urgency=low
+
+  * Fixed memory leaks
+
+  * Initial commit
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 13 Dec 2013 18:33:57 +0400
+
