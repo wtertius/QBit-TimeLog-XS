@@ -1,3 +1,9 @@
+libqbit-timelog-xs-perl (0.002) saucy; urgency=low
+
+  * Fixed depends
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 13 Dec 2013 18:44:14 +0400
+
 libqbit-timelog-xs-perl (0.001) saucy; urgency=low
 
   * Fixed memory leaks
