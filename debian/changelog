@@ -1,3 +1,11 @@
+libqbit-timelog-xs-perl (0.004) saucy; urgency=low
+
+  * Fixed text
+
+  * Fixed architecture
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Sun, 15 Dec 2013 11:30:56 +0400
+
 libqbit-timelog-xs-perl (0.003) saucy; urgency=low
 
   * Fixed libraries for old series
