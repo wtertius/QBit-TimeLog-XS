@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8.0.0), g++, perl, libqbit-timelog-perl, libtest-le
 Standards-Version: 3.9.4
 
 Package: libqbit-timelog-xs-perl
-Architecture: all
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-timelog-perl
 Description: Short description.
  Long description.
