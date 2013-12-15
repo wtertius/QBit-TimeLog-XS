@@ -32,6 +32,8 @@ public:
     ~TimeLog() {
         for (std::list<TimeLog *>::const_iterator it = _cps.begin(); it != _cps.end(); ++it)
             delete *it;
+        if (_description)
+            free(_description);
     }
 
     void start(char * text) {
@@ -42,7 +44,7 @@ public:
             _cur = tmp;
         } else {
             clock_gettime(CLOCK_MONOTONIC, &_start);
-            _description = text;
+            _description = strdup(text);
             _cur = this;
         }
     }

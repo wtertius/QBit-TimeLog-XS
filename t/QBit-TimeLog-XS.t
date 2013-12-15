@@ -7,7 +7,7 @@ use Test::LeakTrace;
 
 my $timelog = new_ok('QBit::TimeLog::XS');
 
-$timelog->start('Main prog');
+$timelog->start(gettext('Main prog'));
 
 $timelog->start('Action 1');
 $_++ foreach (0 .. 1000);
