@@ -1,3 +1,9 @@
+libqbit-timelog-xs-perl (0.005) saucy; urgency=low
+
+  * Added POD
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 17 Jan 2014 17:12:38 +0400
+
 libqbit-timelog-xs-perl (0.004) saucy; urgency=low
 
   * Fixed text
