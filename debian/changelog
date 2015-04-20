@@ -1,3 +1,9 @@
+libtertiusqbit-timelog-xs-perl (0.006) saucy; urgency=low
+
+  * Rename debian package
+
+ -- Dmitry Lukiyanchuk <tertius@yandex-team.ru>  Mon, 20 Apr 2015 12:51:37 +0300
+
 libtertiusqbit-timelog-xs-perl (0.005) saucy; urgency=low
 
   * Added POD
