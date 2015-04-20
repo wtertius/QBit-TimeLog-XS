@@ -1,12 +1,14 @@
-Source: libqbit-timelog-xs-perl
+Source: libtertiusqbit-timelog-xs-perl
 Section: perl
 Priority: extra
-Maintainer: Sergei Svistunov <sergei-svistunov@yandex.ru>
-Build-Depends: debhelper (>= 8.0.0), g++, perl, libqbit-timelog-perl, libtest-leaktrace-perl
+Maintainer: Dmitry Lukiyanchuk <wtertius@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), g++, perl, libtertiusqbit-timelog-perl, libtest-leaktrace-perl
 Standards-Version: 3.9.4
 
-Package: libqbit-timelog-xs-perl
+Package: libtertiusqbit-timelog-xs-perl
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-timelog-perl
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libtertiusqbit-timelog-perl
+Conflicts: libqbit-timelog-xs-perl
+Replaces: libqbit-timelog-xs-perl
 Description: Short description.
  Long description.

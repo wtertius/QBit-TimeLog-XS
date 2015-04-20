@@ -1,10 +1,10 @@
-libqbit-timelog-xs-perl (0.005) saucy; urgency=low
+libtertiusqbit-timelog-xs-perl (0.005) saucy; urgency=low
 
   * Added POD
 
  -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 17 Jan 2014 17:12:38 +0400
 
-libqbit-timelog-xs-perl (0.004) saucy; urgency=low
+libtertiusqbit-timelog-xs-perl (0.004) saucy; urgency=low
 
   * Fixed text
 
@@ -12,19 +12,19 @@ libqbit-timelog-xs-perl (0.004) saucy; urgency=low
 
  -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Sun, 15 Dec 2013 11:30:56 +0400
 
-libqbit-timelog-xs-perl (0.003) saucy; urgency=low
+libtertiusqbit-timelog-xs-perl (0.003) saucy; urgency=low
 
   * Fixed libraries for old series
 
  -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 13 Dec 2013 18:53:03 +0400
 
-libqbit-timelog-xs-perl (0.002) saucy; urgency=low
+libtertiusqbit-timelog-xs-perl (0.002) saucy; urgency=low
 
   * Fixed depends
 
  -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 13 Dec 2013 18:44:14 +0400
 
-libqbit-timelog-xs-perl (0.001) saucy; urgency=low
+libtertiusqbit-timelog-xs-perl (0.001) saucy; urgency=low
 
   * Fixed memory leaks
 
